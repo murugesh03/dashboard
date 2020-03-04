@@ -1,0 +1,14 @@
+.video_icon {
+  color: #b5316a;
+  padding-left: 5px;
+  font-size: 22px;
+}
+.upload {
+  border-bottom: 2px solid #b5316a;
+  border-radius: 0px;
+  background-color: transparent;
+  /* border-style: none; */
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}

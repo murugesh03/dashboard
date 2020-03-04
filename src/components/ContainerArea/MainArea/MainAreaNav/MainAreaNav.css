@@ -1,0 +1,27 @@
+.drop_down_width {
+  width: fit-content;
+}
+.MainAreaNav {
+  display: flex;
+}
+.icons {
+  float: left;
+  font-size: 33px;
+  color: #b5316a;
+}
+.button_save {
+  border-radius: 20px;
+  background-color: #ffd1e5;
+  border-style: none;
+  height: 5vh;
+  width: 50%;
+}
+.MainAreaNav_text {
+  font-size: 21px;
+  font-weight: bold;
+  color: #b5316a;
+}
+
+.dropdown-button {
+  padding-right: 15px;
+}

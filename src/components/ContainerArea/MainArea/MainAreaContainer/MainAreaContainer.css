@@ -1,0 +1,10 @@
+.main_area_container {
+  border: 1px dashed grey;
+  border-radius: 20px;
+}
+.content_area {
+  padding: 20px 20px;
+}
+.content_area img {
+  width: 50%;
+}
