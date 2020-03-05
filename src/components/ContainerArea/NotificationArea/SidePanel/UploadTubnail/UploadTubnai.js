@@ -9,10 +9,12 @@ const UploadTubnail = ({ fileUpload, fileSelcted }) => {
         <GoCloudUpload
           style={{ width: "1em", fontSize: "20px", color: "#b5316a" }}
         />
-        <span style={{ padding: "10px" }}>Upload Thumbnail</span>
+        <span style={{ padding: "10px", fontSize: "15px" }}>
+          Upload Thumbnail
+        </span>
       </span>
       <input type="text" className=" input-upload" onChange={fileUpload} />
-      <p style={{ display: "flex" }}>
+      <span style={{ display: "flex" }}>
         {" "}
         <img
           src={Girl}
@@ -26,7 +28,7 @@ const UploadTubnail = ({ fileUpload, fileSelcted }) => {
           <p className="pic-text">1300 * 200 px</p>
           <p className="pic-text">243kb</p>
         </div>
-      </p>
+      </span>
     </div>
   );
 };

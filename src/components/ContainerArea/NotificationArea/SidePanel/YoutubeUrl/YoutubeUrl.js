@@ -8,7 +8,7 @@ const YoutubeUrl = () => {
       <div>
         <span>
           <FaYoutube className="icon_yt" />
-          <span style={{ padding: "10px" }}>Youtube URL</span>
+          <span style={{ padding: "10px", fontSize: "15px" }}>Youtube URL</span>
         </span>
       </div>
       <div className="input-size">

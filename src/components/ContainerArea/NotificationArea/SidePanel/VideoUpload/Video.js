@@ -6,10 +6,10 @@ import { IoMdPlayCircle } from "react-icons/io";
 import "./Video.css";
 const Video = () => {
   return (
-    <div clasName="video">
-      <span >
+    <div className="video">
+      <span>
         <IoMdPlayCircle className="video_icon" />
-        <span style={{ padding: "10px" }}> Video</span>
+        <span style={{ padding: "10px", fontSize: "15px" }}> Video</span>
       </span>
 
       <button className="upload">

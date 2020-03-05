@@ -4,7 +4,9 @@ import "./Logo.css";
 const Logo = () => {
   return (
     <div className="Logo">
-      <img src={LogoIcon} alt="logo icon" />
+      <div className="logo-icon">
+        <img src={LogoIcon} alt="logo icon" />
+      </div>
       <p className="logo_text">CSI - SYNOD</p>
     </div>
   );
