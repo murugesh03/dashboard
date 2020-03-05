@@ -1,18 +1,27 @@
 import React from "react";
-import { faPlayCircle, faArrowUp } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faPlayCircle, faArrowUp } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { IoIosArrowRoundUp } from "react-icons/io";
+import { IoMdPlayCircle } from "react-icons/io";
 import "./Video.css";
 const Video = () => {
   return (
     <div clasName="video">
-      <p>
-        <FontAwesomeIcon icon={faPlayCircle} className="video_icon" />
-        <span style={{ padding: "5px 0px 0px 5px" }}> Video</span>
-      </p>
+      <span >
+        <IoMdPlayCircle className="video_icon" />
+        <span style={{ padding: "10px" }}> Video</span>
+      </span>
 
       <button className="upload">
         Upload Video{" "}
-        <FontAwesomeIcon icon={faArrowUp} style={{ float: "right" }} />
+        <IoIosArrowRoundUp
+          style={{
+            float: "right",
+            width: "1em",
+            color: "#b5316a",
+            fontSize: "25px"
+          }}
+        />
       </button>
     </div>
   );

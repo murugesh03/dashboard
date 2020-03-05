@@ -1,14 +1,14 @@
 import React from "react";
-import { FaFacebook } from "react-icons/fa";
-import "./FaceBookUrl.css";
+import { FaYoutube } from "react-icons/fa";
+import "./YoutubeUrl.css";
 
-const FaceBookurl = () => {
+const YoutubeUrl = () => {
   return (
-    <div className="facebook">
+    <div className="youtube">
       <div>
         <span>
-          <FaFacebook className="icon_fb" />
-          <span style={{ padding: "10px" }}>FaceBook URL</span>
+          <FaYoutube className="icon_yt" />
+          <span style={{ padding: "10px" }}>Youtube URL</span>
         </span>
       </div>
       <div className="input-size">
@@ -22,4 +22,4 @@ const FaceBookurl = () => {
   );
 };
 
-export default FaceBookurl;
+export default YoutubeUrl;

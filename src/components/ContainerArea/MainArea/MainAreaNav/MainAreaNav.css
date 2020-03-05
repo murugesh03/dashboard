@@ -6,8 +6,9 @@
 }
 .icons {
   float: left;
-  font-size: 33px;
+  font-size: 30px;
   color: #b5316a;
+  width: 1em;
 }
 .button_save {
   border-radius: 20px;

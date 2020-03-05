@@ -1,11 +1,12 @@
 import React from "react";
 import "./MainAreaNav.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaCheckCircle, FaArrowCircleUp } from "react-icons/fa";
+  // import {
+  //   faCheckCircle,
+  //   faArrowCircleUp
+// } from "@fortawesome/free-solid-svg-icons";
 
-import {
-  faCheckCircle,
-  faArrowCircleUp
-} from "@fortawesome/free-solid-svg-icons";
 const MainAreaNav = () => {
   return (
     <div className="MainAreaNav">
@@ -13,7 +14,7 @@ const MainAreaNav = () => {
       <div className="dropdown drop_down_width dropdown-button">
         <button
           type="button"
-          style={{ borderBottom: "2px solid #b5316a", borderRadius: "0" }}
+          style={{ borderBottom: "1px solid #b5316a", borderRadius: "0" }}
           className="btn  dropdown-toggle"
           data-toggle="dropdown"
         >
@@ -34,7 +35,7 @@ const MainAreaNav = () => {
       <div className="dropdown drop_down_width dropdown-button">
         <button
           type="button"
-          style={{ borderBottom: "2px solid #b5316a", borderRadius: "0" }}
+          style={{ borderBottom: "1px solid #b5316a", borderRadius: "0" }}
           className="btn  dropdown-toggle"
           data-toggle="dropdown"
         >
@@ -53,12 +54,11 @@ const MainAreaNav = () => {
         </div>
       </div>
       <button className="button_save">
-        <FontAwesomeIcon className="icons " icon={faCheckCircle} />
+        <FaCheckCircle className="icons" />
         <span
           style={{
             lineHeight: "33px",
-            color: "#b5316a",
-            
+            color: "#b5316a"
           }}
         >
           {" "}
@@ -66,7 +66,7 @@ const MainAreaNav = () => {
         </span>
       </button>
       <button className="button_save">
-        <FontAwesomeIcon className="icons " icon={faArrowCircleUp} />
+        <FaArrowCircleUp className="icons"  />
         <span
           style={{
             lineHeight: "33px",

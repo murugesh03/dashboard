@@ -1,0 +1,12 @@
+.uploadtubnail {
+  padding-top: 10px;
+}
+.input-upload {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #b5316a;
+}
+.pic-text {
+  margin: 0;
+}

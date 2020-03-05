@@ -6,7 +6,6 @@ const MainArea = () => {
   return (
     <div className="col-md-7 main_area">
       <MainAreaNav />
-
       <hr />
       <MainAreaContainer />
     </div>
